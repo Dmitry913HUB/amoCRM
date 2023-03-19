@@ -16,3 +16,349 @@ body{
         -o-background-size: cover;
         background-size: cover;
 }
+
+li, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header, main, footer{
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+
+header{
+    padding-top: 5%;
+}
+
+header .logo{
+    width: 17%;
+}
+
+.logo p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+header .menu{
+    width: 50%;
+    padding: 0 6% 0 2%;
+}
+
+.menu li a, .social-media li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #E4E5EA;
+}
+
+header .social-media{
+    width: 25%;
+}
+
+main .promotion{
+    padding: 5% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 50%;
+}
+
+.right{
+    justify-content: right;
+    text-align: right;
+}
+
+dl{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+dd{
+    margin: 0;
+}
+.box dl div{
+    width: 40%;
+}
+
+main .promotion .box h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+ 
+main .promotion .box h1 span{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+main .promotion .box p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main .promotion .box h2 span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+main .promotion .box h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main .promotion .box dl div{
+    padding: 2% 0 2% 0;
+}
+
+main .promotion .box dl div dt{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+main .promotion .box dl div dd{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 1% 0 1% 0;
+}
+
+.show-none{
+    display: none;
+}
+
+main .promotion .box .show-none{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+main .promotion .box button{
+    width: 262px;
+    height: 61px;
+    margin-top: 3%;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E4E5EA;    
+    background: #4077F3;
+
+    border: 1px solid #4077F3;
+}
+
+footer{
+    padding: 5% 10% 0 10%;
+}
+
+footer .footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer .about, footer .contacts{
+    width: 25%;
+}
+
+.footer-menu{
+    width: 50%;
+}
+
+.footer-menu div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-menu div ul{
+    width: 40%;
+    justify-content: left;
+    text-align: left;
+}
+
+footer .social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .social-media li{
+    margin: 0 0 0 2%;
+}
+
+footer .footer-links{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+footer .footer-links li{
+    padding-top: 2%;
+}
+
+footer .footer-links li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-decoration: none;
+    letter-spacing: 0;
+    text-transform: initial;
+}
+
+footer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+@media (max-width: 980px) {
+    .box{
+        width: 100%;
+    }
+    header .logo, header .social-media{
+        display: none;
+    }
+    header .menu{
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    
+    .menu li a, .social-media li a{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .show{
+        display: none;
+    }
+    .right{
+        justify-content: left;
+        text-align: left;
+    }
+    main .promotion .box h1, main .promotion .box h1 span{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    main .promotion .box h2 span{
+        text-transform: none;
+    }
+    .box dl{
+        display: none;
+    }
+    .show-none{
+        display: block;
+    }
+    main .promotion .box .show-none{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    main .promotion .box .show-none li{
+        /* list-style-image: url("../img/Line.svg"); */
+        padding: 1% 0 1% 4%;
+        width: 46%;
+        background: url("../img/Line.svg") no-repeat -1px 10px transparent;
+    } 
+    main .promotion .box button{
+        display: none;
+    }
+
+    header nav{
+        padding: 5% 0 5% 0;
+    }
+
+    footer, header{
+        background-color: #0E1014;
+    }
+
+    footer .about, footer .contacts, .footer-menu{
+        width: 100%;
+        margin-top: 5%;
+    }
+    footer .footer-links{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    footer .footer-links li{
+        padding-top: 2%;
+    }
+    
+    footer .footer-links li a{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    footer .social-media li{
+        margin: 0 2% 0 0;
+    }
+    .footer-menu div ul{
+        width: 50%;
+    }
+
+    footer p{
+        margin-top: 5%;
+    }
+    header, main, footer{
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    
+}
+
